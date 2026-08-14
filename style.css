@@ -115,10 +115,11 @@ nav {
     margin-bottom: 28px;
 }
 
+    /*improving my own picture*/
+
+    
 .about-me__picture {
     width: 100%;
-
-    /*improving my own picture*/
     transform: scale(1.5);
     padding-top: 8px;
 }
@@ -138,3 +139,4 @@ nav {
     text-decoration: none;
     padding: 0 16px;
 }
+
