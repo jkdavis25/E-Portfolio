@@ -28,6 +28,10 @@ li{
     flex: 1;
 }
 
+.container {
+    padding: 50px 0;
+}
+
 .flex {
     display: flex;
 }
@@ -40,6 +44,14 @@ li{
 
 .text-purple{
     color: #6030b1;
+}
+
+section:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.section_title {
+    margin-bottom: 20px;
 }
 
 
@@ -95,6 +107,10 @@ nav {
     flex-direction: column;
 }
 
+.about-__info{
+    display: flex;
+    flex-direction: column;
+}
 
 
 .about-me__info--container {
@@ -117,7 +133,7 @@ nav {
 
     /*improving my own picture*/
 
-    
+
 .about-me__picture {
     width: 100%;
     transform: scale(1.5);
@@ -133,10 +149,41 @@ nav {
     margin-bottom: 28px;
 }
 
-.about-me__links{
+.about-me__link{
     font-size: 20px;
     color: #242424;
     text-decoration: none;
     padding: 0 16px;
 }
 
+.about-me__info--container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.about-me__img{
+    width: 100%;
+}
+
+/*TECH - STACK*/
+
+.language__img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.language {
+    width: 25%;
+}
+
+.language__img--wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language__list{
+    display: flex;
+    width: 100%;
+}
